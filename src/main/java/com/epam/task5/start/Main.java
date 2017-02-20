@@ -13,14 +13,14 @@ public class Main {
         String resourceName = "menuu.xml";
 
 
-//        System.out.println("SAX Parser");
-//        SaxMenuParser.startParser(resourceName);
-//
-//        System.out.println("Stax Parser");
-//        StaxMenuParser.startParser(resourceName);
+       System.out.println("SAX Parser");
+       SaxMenuParser.startParser(resourceName);
 
-        System.out.println("DOM parser");
-        DOMMenuParser.startParser(resourceName);
+       System.out.println("Stax Parser");
+       StaxMenuParser.startParser(resourceName);
+
+       System.out.println("DOM parser");
+       DOMMenuParser.startParser(resourceName);
 
     }
 }
