@@ -71,20 +71,6 @@ public class DOMMenuParser {
         }
 
 
-//        for (int j = 0; j < mealNodes.getLength(); j++) {
-//            meal = new Meal();
-//            Element mealElement = (Element) mealNodes.item(j);
-//
-//
-//            meal.setId(Integer.parseInt(mealElement.getAttribute("id")));
-//            meal.setName(getSingleChild(mealElement, "name").getTextContent().trim());
-//            meal.setDiscription(getSingleChild(mealElement, "discription").getTextContent().trim());
-//            meal.setPortion(getSingleChild(mealElement, "portion").getTextContent().trim());
-//            meal.setPrice(Integer.parseInt(getSingleChild(mealElement, "price").getTextContent().trim()));
-//            menu.add(meal);
-//
-//        }
-
 
         for (Meal m : menu) {
             System.out.println(m);
